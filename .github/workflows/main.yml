@@ -2,7 +2,7 @@ name: Run Cypress Tests
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "2 * * * *"
 
 jobs:
   cypress:
@@ -17,9 +17,9 @@ jobs:
           node-version: 14
 
       - name: Install Dependencies
-        working-directory: cypress-assignment
+        working-directory: cypress
         run: npm install
 
       - name: Run Cypress Tests
-        working-directory: cypress-assignment
+        working-directory: cypress
         run: npx cypress run --browser chrome --spec cypress/e2e/Assignment/PS5/testLogin.cy.ts
