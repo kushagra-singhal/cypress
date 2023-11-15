@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "baseUrl": "../node_modules",
+      "target": "es5",
+      "lib": ["es5", "dom","es2015"],
+      "types": ["cypress"],
+      "resolveJsonModule": true,
+      "esModuleInterop": true
+    },
+    "include": [
+      "**/*.ts",
+      "e2e/latest-assignments.cy.js"
+    ]
+  }

@@ -1,0 +1,24 @@
+[
+    {
+      "scenarioname": "Login with incorrect username",
+      "username": "test",
+      "password": "Password123",
+      "assertionid": "[id='error']",
+      "assertion": "Your username is invalid!"
+    },
+    {
+      "scenarioname": "Login with incorrect password",
+      "username": "student",
+      "password": "Password12",
+      "assertionid": "[id='error']",
+      "assertion": "Your password is invalid!"
+    },
+    {
+      "scenarioname": "Login with valid credentials",
+      "username": "student",
+      "password": "Password123",
+      "assertionid": "[class='post-title']",
+      "assertion": "Logged In Successfully"
+    }
+  ]
+  
