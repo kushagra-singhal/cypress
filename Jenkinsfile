@@ -6,7 +6,7 @@ pipeline {
 
         {
             steps    {
-                dir('Assignment')
+                sh 'cd Assignment'
                 {
                     /* execute commands in the scripts directory */
 
