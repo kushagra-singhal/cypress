@@ -6,7 +6,7 @@ pipeline {
 
         {
             steps    {
-                sh 'cd Assignment'
+                dir('/home/kushas/Documents/Learnings/Cypress/cypress-assignment/cypress/e2e/Assignment')
                 {
                     /* execute commands in the scripts directory */
 
