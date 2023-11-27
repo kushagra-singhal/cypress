@@ -1,9 +1,8 @@
-// import data from "../../test-data/test-login.json";
 import data from "../../../test-data/test-login.json"
 describe("Login Flow Test", () => {
   beforeEach(() => {
-    cy.readFile("cypress/test-data/part2.json").then((urls) => {
-      cy.visit(urls.assignment5.BASE_URL);
+    cy.readFile("cypress/test-data/data2.json").then((urls) => {
+      cy.visit(urls.testLogin.BASE_URL);
     });
   });
   data.forEach((data) => {

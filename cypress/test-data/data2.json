@@ -1,15 +1,15 @@
 {
-    "assignment2":{
+    "userManagement":{
         "BASE_URL":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
     },
-    "assignment3":{
+    "shoppingCart":{
         "BASE_URL":"https://react-shopping-cart-67954.firebaseapp.com/",
         "BE_URL":"https://react-shopping-cart-67954.firebaseio.com/products.json"
     },
-    "assignment4":{
+    "form_accessibility":{
         "BASE_URL":"http://demoqa.com/automation-practice-form/"
     },
-    "assignment5":{
+    "testLogin":{
         "BASE_URL":"https://practicetestautomation.com/practice-test-login/"
     }
 }

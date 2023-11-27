@@ -9,7 +9,6 @@
       "esModuleInterop": true
     },
     "include": [
-      "**/*.ts",
-      "e2e/latest-assignments.cy.js"
+      "**/*.ts"
     ]
   }

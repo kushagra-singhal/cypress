@@ -5,8 +5,8 @@ describe("User Management Tests", { testIsolation: false }, () => {
     return today.toString().replace(/[^\d]/g, "");
   };
   before(() => {
-    cy.readFile("cypress/test-data/part2.json").then((urls) => {
-      cy.visit(urls.assignment2.BASE_URL);
+    cy.readFile("cypress/test-data/data2.json").then((urls) => {
+      cy.visit(urls.userManagement.BASE_URL);
     });
   });
   after(() => {
